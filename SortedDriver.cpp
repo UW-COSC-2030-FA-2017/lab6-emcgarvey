@@ -1,13 +1,13 @@
 // SortedDriver.cpp
 
 // tom bailey   1445  25 mar 2014
-// Construct sorted sequences and call functions that 
+// Construct sorted sequences and call functions that
 //   process the sorted sequences.
 
 
 #include "RandomUtilities.h"
 #include "ContainerPrinting.h"
-#include "winTimer.h"
+#include "winTimer.cpp"
 #include <list>
 #include <iostream>
 #include <vector>
@@ -57,7 +57,7 @@ getWords(size_t numWords, size_t wordLength, string alphabet)
 }
 
 
-// pre:  number is not empty; 
+// pre:  number is not empty;
 //       number is sorted from smallest to largest
 // post: The most isolated entry in number has been returned
 double
