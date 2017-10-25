@@ -63,7 +63,40 @@ getWords(size_t numWords, size_t wordLength, string alphabet)
 double
 mostIsolated(vector<double> & number)
 {
-	// STUB  STUB  STUB
+	/*double mostiso = 0.0;
+	for(int i = 0; i < number.size(); i++)
+	{
+		double nearest = 0.0;
+		double distance = 0.0;
+		if (i = 0)
+		{
+			nearest = number.at(i+1);
+			distance = nearest - number.at(i);
+			mostiso = number.at(i);
+		}
+		else
+		{
+			if((number.at(i) - number.at(i-1)) < (number.at(i+1) - number.at(i)))
+			{
+				nearest = number.at(i-1);
+				if (number.at(i) - nearest > distance)
+				{
+					distance = number.at(i) - nearest;
+					mostiso = number.at(i);
+				}
+			}
+			else
+			{
+				nearest = number.at(i +1);
+				if (nearest - number.at(i) > distance)
+				{
+					distance = number.at(i) - nearest;
+					mostiso = number.at(i);
+				}
+			}
+		}
+	}
+	return mostiso;*/
 	return -123.456;
 }
 
